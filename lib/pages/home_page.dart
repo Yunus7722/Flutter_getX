@@ -18,6 +18,18 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       body: Container(
+        decoration: BoxDecoration(
+            gradient: LinearGradient(colors: [
+                        Color(0xFFacb6e5),
+                        Color(0xFF86fde8),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+        ),
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: Column(mainAxisAlignment:
@@ -34,7 +46,17 @@ class HomePage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: 80,
               decoration: BoxDecoration(
-                  color: Colors.redAccent[200],
+                  // color: Colors.redAccent[200],
+                    gradient: LinearGradient(colors: [
+                        Color(0xFF9796f0),
+                        Color(0xFFfbc7d4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                   borderRadius: BorderRadius.circular(30)),
               child: Center(
                 child: Text(
@@ -53,7 +75,17 @@ class HomePage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: 80,
               decoration: BoxDecoration(
-                  color: Colors.teal[300],
+                  // color: Colors.teal[300],
+                  gradient: LinearGradient(colors: [
+                        Color(0xFF1A2980),
+                        Color(0xFF26D0CE),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                   borderRadius: BorderRadius.circular(30)),
               child: Center(
                 child: Text(
@@ -72,7 +104,17 @@ class HomePage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: 80,
               decoration: BoxDecoration(
-                  color: Colors.teal[300],
+                  // color: Colors.teal[300],
+                  gradient: LinearGradient(colors: [
+                        Color(0xFF1A2980),
+                        Color(0xFF26D0CE),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                   borderRadius: BorderRadius.circular(30)),
               child: Center(
                 child: Text(
@@ -91,7 +133,17 @@ class HomePage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: 80,
               decoration: BoxDecoration(
-                  color: Colors.teal[300],
+                  // color: Colors.teal[300],
+                   gradient: LinearGradient(colors: [
+                        Color(0xFFE55D87),
+                        Color(0xFF5FC3E4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                   borderRadius: BorderRadius.circular(30)),
               child: Center(
                 child: Text(
@@ -108,7 +160,17 @@ class HomePage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: 80,
               decoration: BoxDecoration(
-                  color: Colors.teal[300],
+                  // color: Colors.teal[300],
+                   gradient: LinearGradient(colors: [
+                        Color(0xFFE55D87),
+                        Color(0xFF5FC3E4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                   borderRadius: BorderRadius.circular(30)),
               child: Center(
                 child: Text(

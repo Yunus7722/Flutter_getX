@@ -19,9 +19,36 @@ class ThirdPage extends StatelessWidget {
     
 
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+             gradient: LinearGradient(colors: [
+                        Color(0xFFE55D87),
+                        Color(0xFF5FC3E4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+          ),
+        ),
+      ),
       body: Center(
         child: Container(
+           decoration: BoxDecoration(
+            gradient: LinearGradient(colors: [
+                        Color(0xFFacb6e5),
+                        Color(0xFF86fde8),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+        ),
           child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -35,7 +62,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Colors.teal[300],
+                      gradient: LinearGradient(colors: [
+                        Color.fromARGB(255, 29, 139, 217),
+                        // Color(0xFF12D8FA),
+                        Color.fromRGBO(61, 236, 204, 1),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+                        // color: Colors.teal[300],
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -52,7 +89,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 82, 146, 255),
+                        // color: Color.fromARGB(255, 82, 146, 255),
+                        gradient: LinearGradient(colors: [
+                        Color(0xFF9796f0),
+                        Color(0xFFfbc7d4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -69,7 +116,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Colors.redAccent,
+                       gradient: LinearGradient(colors: [
+                        Color(0xFF1A2980),
+                        Color(0xFF26D0CE),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+                        // color: Colors.redAccent,
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -86,7 +143,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Colors.redAccent,
+                        // color: Colors.redAccent,
+                        gradient: LinearGradient(colors: [
+                        Color(0xFF1A2980),
+                        Color(0xFF26D0CE),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -106,7 +173,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Colors.teal[300],
+                        // color: Colors.teal[300],
+                        gradient: LinearGradient(colors: [
+                        Color(0xFFff6e7f),
+                        Color(0xFFbfe9ff),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -127,7 +204,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 161, 77, 182),
+                      gradient: LinearGradient(colors: [
+                        Color(0xFFCC95C0),
+                        Color(0xFFDBD4B4),
+                        Color(0xFF7AA1D2),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+                        // color: const Color.fromARGB(255, 161, 77, 182),
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -147,7 +234,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 182, 77, 91),
+                      gradient: LinearGradient(colors: [
+                        Color(0xFF003973),
+                        Color(0xFFE5E5BE),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+                        // color: Color.fromARGB(255, 182, 77, 91),
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(
@@ -163,7 +260,17 @@ class ThirdPage extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     height: 80,
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 182, 133, 77),
+                      gradient: LinearGradient(colors: [
+                        Color(0xFFE55D87),
+                        Color(0xFF5FC3E4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+                        // color: Color.fromARGB(255, 182, 133, 77),
                         borderRadius: BorderRadius.circular(30)),
                     child: Center(
                       child: Text(

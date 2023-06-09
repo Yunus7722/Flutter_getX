@@ -8,8 +8,35 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+             gradient: LinearGradient(colors: [
+                        Color(0xFFE55D87),
+                        Color(0xFF5FC3E4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+          ),
+        ),
+      ),
       body: Container(
+         decoration: BoxDecoration(
+            gradient: LinearGradient(colors: [
+                        Color(0xFFacb6e5),
+                        Color(0xFF86fde8),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -22,7 +49,17 @@ class SecondPage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: 80,
               decoration: BoxDecoration(
-                  color: Colors.teal[300],
+                  // color: Colors.teal[300],
+                    gradient: LinearGradient(colors: [
+                        Color(0xFF9796f0),
+                        Color(0xFFfbc7d4),
+                        // Color(0xFFA6FFCB),
+                        
+                        // Colors.yellow
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight
+                      ),
                   borderRadius: BorderRadius.circular(30)),
               child: Center(
                 child: Text(
