@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_state_management/helper/init_controllers.dart';
 import 'package:get/get.dart';
 
 import 'pages/home_page.dart';
 
-void main() {
+Future<void> main() async {
+
+  WidgetsFlutterBinding.ensureInitialized();
+  //2nd method to initialize controllers or known as binding
+  await init_Controllers();
   runApp(const MyApp());
 }
 

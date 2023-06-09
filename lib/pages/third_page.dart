@@ -14,8 +14,8 @@ class ThirdPage extends StatelessWidget {
 
     TapController controller = Get.find();
     // dependency injection for listController
-    ListController listController = Get.put(ListController());
-
+    // ListController listController = Get.put(ListController());
+    ListController listController = Get.find();
     
 
     return Scaffold(
