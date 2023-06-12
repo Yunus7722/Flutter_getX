@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_state_management/helper/init_controllers.dart';
+import 'package:flutter_state_management/helper/init_dependency.dart';
 import 'package:get/get.dart';
 
 import 'pages/home_page.dart';
@@ -8,7 +9,7 @@ Future<void> main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
   //2nd method to initialize controllers or known as binding
-  await init_Controllers();
+  // await init_Controllers();
   runApp(const MyApp());
 }
 
@@ -19,6 +20,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp( // only for navigation we need GetMaterialApp 
+     //3rd method initialize the dependencies by implementing from binding interface
+      initialBinding: InitDep(),
       home:  HomePage(),
       debugShowCheckedModeBanner: false,
     );
