@@ -5,6 +5,6 @@ import '../controllers/list_controller.dart';
 
 Future<void> init_Controllers() async{
 
-  Get.put(()=>ListController());
-  Get.put(()=>TapController());
+  Get.lazyPut(()=>ListController());
+  Get.lazyPut(()=>TapController());
 }
